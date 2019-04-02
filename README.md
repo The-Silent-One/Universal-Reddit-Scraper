@@ -23,7 +23,7 @@ Once you configure the settings for the scrape, the program will write a .csv fi
 
 The file names are formatted as such: "SUBREDDIT-POST_CATEGORY DATE.csv". If you have searched for a specific keyword in a subreddit, file names are formatted like so: "SUBREDDIT-Search-'KEYWORD' DATE.csv".
 
-# Examples of use from start to finish
+# Screenshots / Walkthrough
 
 For Linux-based systems, you can check which version of python you are running using `python3 -V`. If your python3 is not 3.6.x, you can make an alias for it by editing your .bashrc and adding `alias python3.6='/path/to/python3.6.x` at the bottom of the file. Usually the path is `/usr/bin/python3.6`. Now you'll be able to use Python 3.6.x by just typing `python3.6` in the terminal.
 
