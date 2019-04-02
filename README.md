@@ -61,6 +61,8 @@ When you confirm the settings, the program will write CSV files to the directory
 
 ![Finish](https://github.com/JosephLai241/Universal-Reddit-Scraper/blob/assets/finish.png)
 
+![CSVs created](https://github.com/JosephLai241/Universal-Reddit-Scraper/blob/assets/csvcreated.png)
+
 # How to get Reddit API Credentials
 
 First, create your own Reddit account and then head over to https://old.reddit.com/prefs/apps.
