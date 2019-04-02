@@ -4,6 +4,8 @@ This was my first project with the PRAW module. I initially only wanted to scrap
 
 The universal scraper has much better functionality and layout and I would recommend disregarding this program. I decided to keep this in the repo just for the hell of it.
 
+---------------------------------------------------------------------------------------------------------------------------------
+
 You will need to install the PRAW module in order for this program to work. `pip install praw` or `pip3 install praw` depending on your system. You will also need your own Reddit account and API credentials.
 
 **NOTE:** PRAW currently only supports Python 2.7, 3.3, 3.4, 3.5, and 3.6.
