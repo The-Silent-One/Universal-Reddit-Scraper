@@ -30,21 +30,27 @@ For Linux systems, if your python3 is not 3.6.x, you can make an alias for it in
 
 When you initialize this program, you'll be greeted with this screen
 
-![Screenshot 1](https://github.com/JosephLai241/Universal-Reddit-Scraper/blob/assets/1.png)
+![Screenshot 1](https://github.com/JosephLai241/Universal-Reddit-Scraper/blob/assets/welcome.png)
 
 You can choose to just scrape a single subreddit, or enter a list of subreddits separated by a space
 
-![Screenshot 2](https://github.com/JosephLai241/Universal-Reddit-Scraper/blob/assets/2.png)
+![Screenshot 2](https://github.com/JosephLai241/Universal-Reddit-Scraper/blob/assets/enter.png)
 
 After entering the subreddit(s) you want to scrape, the program will check if the subreddit exists. It will separate the results from the check into a list of found subreddits and ones that are not found
 
-![Screenshot 3](https://github.com/JosephLai241/Universal-Reddit-Scraper/blob/assets/3.png)
+![Screenshot 3](https://github.com/JosephLai241/Universal-Reddit-Scraper/blob/assets/checksubs.png)
 
-You will then have the option to choose the post category within the subreddit (Hot, New, Controversial, Top, Rising, Search)
+You will then have the option to choose the post category within the subreddit (Hot, New, Controversial, Top, Rising, Search). After choosing the category, you'll also have the option to choose how many results you'd like to be returned. Again, this only applies if you do not choose the Search option.
 
-![Screenshot 4](https://github.com/JosephLai241/Universal-Reddit-Scraper/blob/assets/4.png)
+![Screenshot 4](https://github.com/JosephLai241/Universal-Reddit-Scraper/blob/assets/settings1.png)
 
+If you choose to search for keyword(s) within the subreddit, you will be greeted with these settings instead
 
+![Screenshot 5](https://github.com/JosephLai241/Universal-Reddit-Scraper/blob/assets/settings2.png)
+
+After you have configured all settings for each subreddit, you will be greeted with the following screen which displays the settings you have configured
+
+![Settings Screen](https://github.com/JosephLai241/Universal-Reddit-Scraper/blob/assets/overview.png)
 
 # How to get Reddit API Credentials
 
