@@ -1,4 +1,8 @@
-# Reddit Scraper for Penetration Testing posts
+# Reddit Scraper ONLY for Penetration Testing posts
+
+This was my first project with the PRAW module. I initially only wanted to scrape Reddit for posts relating to penetration testing because I want to learn more about it, but a friend suggested that I could make a universal scraper. So I guess you could consider this the first version of my scraper.
+
+The universal scraper has much better functionality and layout and I would recommend disregarding this program. I decided to keep this just for the hell of it.
 
 You will need to install the PRAW module in order for this program to work. `pip install praw` or `pip3 install praw` depending on your system. You will also need your own Reddit account and API credentials.
 
@@ -44,7 +48,3 @@ This block of credentials is found on lines 14-18.
 # How to modify this program to scrape other subreddits
 
 This program can be easily modified to scrape any subreddit(s). All you have to do is change the list of subreddits to scrape on line 21 to the subreddits you want. Also change the text in the subreddit selection loop as to avoid confusion.
-
-
-
-*Enjoy!*
