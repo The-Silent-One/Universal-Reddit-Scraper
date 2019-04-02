@@ -28,7 +28,23 @@ The file names are formatted as such: "SUBREDDIT-POST_CATEGORY DATE.csv". If you
 
 For Linux systems, if your python3 is not 3.6.x, you can make an alias for it in your .bashrc by adding `alias python3.6='/path/to/python3.6.x` at the bottom of the file. Usually the path is `/usr/bin/python3.6`. Now you'll be able to use Python 3.6.x by just typing `python3.6` in the terminal.
 
+When you initialize this program, you'll be greeted with this screen
+
 ![Screenshot 1](https://github.com/JosephLai241/Universal-Reddit-Scraper/blob/assets/1.png)
+
+You can choose to just scrape a single subreddit, or enter a list of subreddits separated by a space
+
+![Screenshot 2](https://github.com/JosephLai241/Universal-Reddit-Scraper/blob/assets/2.png)
+
+After entering the subreddit(s) you want to scrape, the program will check if the subreddit exists. It will separate the results from the check into a list of found subreddits and ones that are not found
+
+![Screenshot 3](https://github.com/JosephLai241/Universal-Reddit-Scraper/blob/assets/3.png)
+
+You will then have the option to choose the post category within the subreddit (Hot, New, Controversial, Top, Rising, Search)
+
+![Screenshot 4](https://github.com/JosephLai241/Universal-Reddit-Scraper/blob/assets/4.png)
+
+
 
 # How to get Reddit API Credentials
 
