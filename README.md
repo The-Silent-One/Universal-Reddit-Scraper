@@ -9,7 +9,6 @@ You will need to install the PRAW module in order for this program to work. `pip
 
 This is a universal Reddit scraper where you can manually specify subreddits to scrape, specify which category of posts to scrape for each subreddit, and how many results are returned. I have also added a search option where you can also search for keyword(s) within a subreddit and the scraper will get all posts that are returned from the search.
 
-
 Options for which category of posts to scrape for are as follows:
 - Hot
 - New
@@ -26,31 +25,35 @@ The file names are formatted as such: "SUBREDDIT-POST_CATEGORY DATE.csv". If you
 
 # Examples of use from start to finish
 
-For Linux systems, if your python3 is not 3.6.x, you can make an alias for it in your .bashrc by adding `alias python3.6='/path/to/python3.6.x` at the bottom of the file. Usually the path is `/usr/bin/python3.6`. Now you'll be able to use Python 3.6.x by just typing `python3.6` in the terminal.
+For Linux-based systems, you can check which version of python you are running using `python3 -V`. If your python3 is not 3.6.x, you can make an alias for it by editing your .bashrc and adding `alias python3.6='/path/to/python3.6.x` at the bottom of the file. Usually the path is `/usr/bin/python3.6`. Now you'll be able to use Python 3.6.x by just typing `python3.6` in the terminal.
 
-When you initialize this program, you'll be greeted with this screen
+When you initialize this program, you'll be greeted with this screen.
 
-![Screenshot 1](https://github.com/JosephLai241/Universal-Reddit-Scraper/blob/assets/welcome.png)
+![Start](https://github.com/JosephLai241/Universal-Reddit-Scraper/blob/assets/welcome.png)
 
-You can choose to just scrape a single subreddit, or enter a list of subreddits separated by a space
+You can choose to just scrape a single subreddit, or enter a list of subreddits separated by a space.
 
-![Screenshot 2](https://github.com/JosephLai241/Universal-Reddit-Scraper/blob/assets/enter.png)
+![Enter subs](https://github.com/JosephLai241/Universal-Reddit-Scraper/blob/assets/enter.png)
 
-After entering the subreddit(s) you want to scrape, the program will check if the subreddit exists. It will separate the results from the check into a list of found subreddits and ones that are not found
+After entering the subreddit(s) you want to scrape, the program will check if the subreddit exists. It will separate the results from the check into a list of found subreddits and ones that are not found.
 
-![Screenshot 3](https://github.com/JosephLai241/Universal-Reddit-Scraper/blob/assets/checksubs.png)
+![Check subs](https://github.com/JosephLai241/Universal-Reddit-Scraper/blob/assets/checksubs.png)
 
 You will then have the option to choose the post category within the subreddit (Hot, New, Controversial, Top, Rising, Search). After choosing the category, you'll also have the option to choose how many results you'd like to be returned. Again, this only applies if you do not choose the Search option.
 
-![Screenshot 4](https://github.com/JosephLai241/Universal-Reddit-Scraper/blob/assets/settings1.png)
+![Settings 1](https://github.com/JosephLai241/Universal-Reddit-Scraper/blob/assets/settings1.png)
 
-If you choose to search for keyword(s) within the subreddit, you will be greeted with these settings instead
+If you choose to search for keyword(s) within the subreddit, you will be greeted with these settings instead.
 
-![Screenshot 5](https://github.com/JosephLai241/Universal-Reddit-Scraper/blob/assets/settings2.png)
+![Settings 2](https://github.com/JosephLai241/Universal-Reddit-Scraper/blob/assets/settings2.png)
 
-After you have configured all settings for each subreddit, you will be greeted with the following screen which displays the settings you have configured
+After you have configured all settings for each subreddit, you will be greeted with the following screen which displays the settings you have configured.
 
-![Settings Screen](https://github.com/JosephLai241/Universal-Reddit-Scraper/blob/assets/overview.png)
+![Settings overview](https://github.com/JosephLai241/Universal-Reddit-Scraper/blob/assets/overview.png)
+
+When you confirm the settings, the program will write CSV files to the directory in which you saved the program and display the title of the post, the score (number of upvotes) of each post, post ID, post URL, comment count, date created, and additional text (body) of the post if there is any.
+
+![Finish](https://github.com/JosephLai241/Universal-Reddit-Scraper/blob/assets/finish.png)
 
 # How to get Reddit API Credentials
 
@@ -61,8 +64,6 @@ Click "create app". Name your app and choose "script" for the type of app. In th
 Once you create the app, you should see a string of 14 characters on the top left corner underneath "personal use script." That is your API ID. Further down you will see "secret" and a string of 27 characters; that is your API password. Save this information as it will be used in the program in order to use the Reddit API. You will also have to provide your app name, Reddit account username and password as well. 
 
 This block of credentials is found on lines 14-18.
-
-# ***Enjoy!***
 
 # List of things I still have to add or change in this program
 - As of now, users would have to start over if they decide they are not satisfied with their scrape settings. I might look into adding an option to either go back and redo the subreddit scrape settings or to completely start over. This way users will have options.
