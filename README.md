@@ -25,7 +25,7 @@ The file names are formatted as such: "SUBREDDIT-POST_CATEGORY DATE.csv". If you
 
 # Screenshots / Walkthrough
 
-For Linux-based systems, you can check which version of python you are running using `python3 -V`. If your python3 is not 3.6.x, you can make an alias for it by editing your .bashrc and adding `alias python3.6='/path/to/python3.6.x'` at the bottom of the file. Usually the path is `/usr/bin/python3.6`. Now you will be able to use Python 3.6.x by just typing `python3.6` in the terminal.
+For Linux-based systems, you can check which version of Python you are running using `python3 -V`. If your python3 is not 3.6.x, you can make an alias for it by editing your .bashrc and adding `alias python3.6='/path/to/python3.6.x'` at the bottom of the file. Usually the path is `/usr/bin/python3.6`. Now you will be able to use Python 3.6.x by just typing `python3.6` in the terminal.
 
 First, you will have to provide your own Reddit credentials in this block of code from lines 15-19. **More information on how to acquire your own credentials is at the bottom of this readme.**
 
@@ -77,5 +77,3 @@ This block of credentials is found on lines 14-18.
 - I intended for this to be used in the terminal, specifically for Linux-based distros. Will look into a better way to print out the scraped results into the terminal instead of creating CSV files for each scrape. Or maybe I will add a "Display scrape results in terminal / Create CSV file / Both? [T/C/B] " option.
 
 - I am still not exactly sure how to do PRAW exception handling, will have to look into that a bit more to catch invalid Reddit credentials, forbidden HTTP responses, etc.
-
-
