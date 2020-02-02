@@ -17,11 +17,11 @@ import datetime as dt
 date = dt.datetime.now().strftime("%m-%d-%Y")
 
 ### Reddit API Credentials
-c_id = "14_CHAR_HERE"               # Personal Use Script (14 char)
-c_secret = "27_CHAR_HERE"           # Secret key (27 char)
-u_a = "APP_NAME_HERE"               # App name
-usrnm = "REDDIT_USERNAME_HERE"      # Reddit username
-passwd = "REDDIT_PASSWORD_HERE"     # Reddit login password
+c_id = "Lj2K6moXmOUY7A"
+c_secret = "3r27lq9Pbnrzqqhuy958AWkop5g"
+u_a = "The Scraper"
+usrnm = "Gamma69"
+passwd = "reddit.safou1996!Gamma" 
 
 ### Subreddit categories
 categories = ["Hot","New","Controversial","Top","Rising","Search"]
